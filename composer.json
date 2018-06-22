@@ -15,11 +15,17 @@
     "keywords": ["xls","Excel", "symfony2", "bundle"],
     "homepage": "http://www.welcometothebundle.com",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:nickfls/PHPExcel.git"
+        }
+    ],
     "require": {
         "php": ">=5.3.2",
         "symfony/framework-bundle": "2.*",
         "irongit/symfony2-stream-response": ">=1.0",
-        "phpoffice/phpexcel": "1.7.9"
+        "phpoffice/phpexcel": "1.8.1"
     },
     "autoload": {
         "psr-0": {
